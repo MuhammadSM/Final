@@ -34,25 +34,7 @@ body{
 
 }
 
-.navButtonLeft{
-	margin: 12px;
-	border: none;
-	display: inline-block;
 
-}
-
-.navButtonRightA{
-	margin-right: 0%;
-	border: none;
-	display: inline-block;
-	position: fixed;
-	top: 25%;
-	left: 65%;
-	margin: 22px;
-	width: 5%;
-	height: 5%;
-
-}
 
 .gridContainer{
 /*	width: 100%;

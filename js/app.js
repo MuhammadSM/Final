@@ -48,6 +48,15 @@ $(document).ready(function(){
 			$("#media").css("display", "none");
 
 		});
+		$("#doodle").mouseover(function(){
+			$("#doodle").css("opacity", 0.85);
+
+		});
+		$("#doodle").mouseout(function(){
+			$("#doodle").css("opacity", 0.35);
+
+		});
+
 
 	// };
 	// $(".abt").addEventListener("mouseover", mouseOn());
