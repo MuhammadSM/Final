@@ -1,0 +1,144 @@
+body{
+	background: rgb(0,0,0);
+	margin-left: 0%;
+	margin-top: 0%;
+	margin-right: 0px;
+	width: 100vh;
+	position: fixed;
+	display: flex;
+	scale: 100%;
+}
+
+.siteLogo{
+	opacity: 35%;
+	height: 25vh;
+	width: 40%;
+	position: fixed;
+	left: 30%;
+	top: 37.5%;
+	z-index: 5000;
+	border-radius: 25%;
+	
+}
+
+.navBar{
+	/*Convert hex 666439 to rgb with opacity = 35%*/
+	background: rgba(102,100,57,.35);
+	height: 25vh;
+	width: 100%;
+	position: fixed;
+	left: 0%;
+	top: 37.5%;
+	z-index: -1000;
+
+
+}
+
+.navButtonLeft{
+	margin: 12px;
+	border: none;
+	display: inline-block;
+
+}
+
+.navButtonRightA{
+	margin-right: 0%;
+	border: none;
+	display: inline-block;
+	position: fixed;
+	top: 25%;
+	left: 65%;
+	margin: 22px;
+	width: 5%;
+	height: 5%;
+
+}
+
+.gridContainer{
+/*	width: 100%;
+	height: 100%;*/
+	display: grid;
+	grid-template-columns: 100vh 100vh;
+	grid-template-rows: 50vh 50vh;
+	align-content: center;
+	position: fixed;
+	left: 2%
+
+}
+
+.navImg {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transition: 3s;
+}
+.abt, .grounds, .keyTerms, .headlines{
+	opacity: .35;
+
+}
+
+#abtTxt{
+	display: hide;
+	position: fixed;
+	bottom: 72%;
+	left: 22%;
+	background: #64403E;
+	border-radius: 20px;
+	width: 6%;
+	height: 6%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	opacity: .05;
+	transition: 1s;
+}
+#grdTxt{
+	display: hide;
+	position: fixed;
+	bottom: 72%;
+	left: 72%;
+	background: #64403E;
+	border-radius: 20px;
+	width: 6%;
+	height: 6%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	opacity: .05;
+	transition: 1s;
+}
+
+#keyTxt{
+	display: hide;
+	position: fixed;
+	bottom: 22%;
+	left: 22%;
+	background: #64403E;
+	border-radius: 20px;
+	width: 12%;
+	height: 7%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	opacity: .05;
+	transition: 1s;
+}
+
+#media{
+	display: hide;
+	position: fixed;
+	bottom: 22%;
+	left: 71%;
+	background: #64403E;
+	border-radius: 20px;
+	width: 8%;
+	height: 3%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	opacity: .05;
+	transition: 1s;
+}
+
+
+
